@@ -23,4 +23,6 @@ Student student = { 1, "zhangsan", 20, 95.5 };
 	printf("%s\n", student.name);
 	printf("%d\n", student.age);
 	printf("%f\n", student.score);
+	getchar();
+	return 0;
 }
