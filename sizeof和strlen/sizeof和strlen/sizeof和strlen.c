@@ -16,12 +16,13 @@ int main()
 	printf("%d\n", s);//3
 	return 0;
 }
-#include<stdio.h>
-int main()
-{
-	int a = 3;
-	printf("%d\n", sizeof a);
-	printf("%d\n", sizeof(int));
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 3;
+//	printf("%d\n", sizeof a);
+//	printf("%d\n", sizeof(int));
+//}
 //#include<stdio.h>
 //#include<Windows.h>
 //#pragma warining(disable:4996)
