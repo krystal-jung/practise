@@ -11,7 +11,7 @@ int main()
 {  
 	int murder = 0;
 	for (murder = 'A'; murder <= 'D'; murder++){
-		if ((murder != 'A' + murder != 'B' + murder != 'C' + murder != 'D') == 3){
+		if ((murder != 'A' + murder == 'C' + murder == 'D' + murder != 'D') == 3){
 			printf("Ğ×ÊÖÊÇ%c", murder);
 		}
 	}
