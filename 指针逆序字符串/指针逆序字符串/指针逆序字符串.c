@@ -1,17 +1,21 @@
 #include <stdio.h>
-#include<stdlib.h>
-int reverse(char str[]){
-	if (*str == '\0'){
-		return 0;
+void Reverse(char str[]){
+	char *start = str;
+	char *end = str + strlen(str) - 1;
+	for (; start < end; start++, end--) {
+		char tmp = *start;
+		*start = *end;
+		*end = tmp;
 	}
-	reverse(str + 1);
-	printf("%c", *str);
-
+	return;
 }
 int main()
 {
-	char str[] = "123456";
-	reverse(str);
-	system("pasue");
+
+	char buf[] = "nihao";
+	printf("%s\n", buf);
+	Reverse(buf);
+	printf("%s\n", buf);
+	system("pause");
 	return 0;
 }
