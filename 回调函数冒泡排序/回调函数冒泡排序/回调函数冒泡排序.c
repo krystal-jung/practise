@@ -22,10 +22,10 @@ int less(int a, int b){
 }
 int main()
 {
-	int arr[] = { 9, 5, 2, 7 };
+	int arr[] = { 20,11,16,18};
 	bubbleSort(arr, 4, less);
 	for (int i = 0; i < 4; i++) {
-		printf("%d\n", arr[i]);
+		printf("%d ", arr[i]);
 	}
 	system("pause");
 	return 0;
