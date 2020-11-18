@@ -4,12 +4,12 @@ size_t myStrlen(const char * str){
 		return 0;
 	}
 	size_t count = 0;
+	//*str[count]
 	while (*(str+count) != '\0'){
 		count++;
 	}
 	return count;
 }
-
 int main()
 {
 	char str[] = "abcdef";
