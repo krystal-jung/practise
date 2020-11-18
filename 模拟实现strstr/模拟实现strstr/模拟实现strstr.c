@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 const char* myStrstr(const char* str1, const char* str2){
 	if (str1 == NULL || str2 == NULL) {
 		return NULL;
@@ -19,7 +18,6 @@ const char* myStrstr(const char* str1, const char* str2){
 	}
 	return NULL;
 }
-
 int main()
 {
 	char str1[] = "hello";
