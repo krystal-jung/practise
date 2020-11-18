@@ -17,7 +17,7 @@ char* myStrcat(char* dest, const char* src){
 }
 int main()
 {
-	char dest[1024] = "he11o,";
+	char dest[1024] = "hello,";
 	char src[10] = "krystal";
 	myStrcat(dest, src);
 	printf("%s\n", dest);
