@@ -12,7 +12,6 @@ char* myStrcpy(char* dest, const char* src){
 	*dest = '\0';
 	return ret;
 }
-
 int main()
 {
 	    char dest[] = "1234";
