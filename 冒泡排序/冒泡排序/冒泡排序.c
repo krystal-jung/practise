@@ -2,6 +2,8 @@
 void bubbleSort(int arr[],int size){
 	//[0,bound)已排序区间
 	//[bound,size)未排序区间
+	//反过来bound-size是已排序
+	//0-bound是未排序
 	for (int bound = 0; bound < size; bound++){
 		for (int cur = size - 1; cur>bound; cur--){
 			if (arr[cur - 1] > arr[cur]){
@@ -12,6 +14,7 @@ void bubbleSort(int arr[],int size){
 		}
 	}
 }
+
 int main()
 {
 	 int arr[] = { 9,1,3,5,7,2 };
