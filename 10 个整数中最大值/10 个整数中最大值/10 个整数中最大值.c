@@ -10,6 +10,9 @@ int main()
 			max = arr[i];			
 		}
 	}
+
+
+
 	if (max >= arr[i]){
 		printf("%d\n", max);
 	}
