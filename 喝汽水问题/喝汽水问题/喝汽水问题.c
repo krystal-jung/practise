@@ -1,5 +1,6 @@
 //喝汽水，1瓶汽水1元，2个空瓶可以换一瓶汽水，给20元，可以多少汽水
 #include <stdio.h>
+
 int main()
 {
 	int money = 20;
